@@ -6,6 +6,6 @@ kamal-"I pledge the highest level of ethical principles in support of academic e
 I ensure that all of my work reflects my own abilities and not those of someone else."<br/>
 
 Screen Shots:
-![Screenshot](91399707_562015664667221_1379612983751081984_n (1).jpg)
-![Screenshot](91484253_242687193441995_2614779323915173888_n (1).jpg)
+![Screenshot](Portrait.jpg)
+![Screenshot](Landscape.jpg)
 
