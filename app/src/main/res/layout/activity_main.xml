@@ -11,7 +11,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="sad"
+        android:text=""
         android:textSize="50sp"
         android:freezesText="true"
         app:layout_constraintBottom_toBottomOf="parent"
