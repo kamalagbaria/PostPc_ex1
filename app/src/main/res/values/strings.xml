@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="click_here">click here</string>
+    <string name="app_name">Todoboom</string>
     <string name="type_here">type here</string>
+    <string name="click_me">Click Me!</string>
+    <string name="create">create</string>
+    <string name="todo_tiem">todo_tiem</string>
 </resources>

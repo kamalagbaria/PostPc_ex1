@@ -6,46 +6,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:configChanges="keyboardHidden|orientation|screenSize"
-    tools:context=".MainActivity">
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:textSize="50sp"
-        android:freezesText="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintVertical_bias="0.2"
-        app:layout_constraintTop_toBottomOf="@id/Button1" />
+    tools:context=".MainActivity"
+    android:label="@string/app_name"
+    >
+
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="50sp"
+        android:autofillHints="@string/type_here"
         android:hint="@string/type_here"
         android:inputType="textVisiblePassword"
+        android:textAlignment="center"
+        android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@id/Button1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.1"
-        android:autofillHints="@string/type_here" />
+        app:layout_constraintTop_toBottomOf="@id/todo_list"
+        app:layout_constraintVertical_bias="0.936"
+        android:imeOptions="flagNoExtractUi"
+        tools:layout_editor_absoluteX="16dp" />
 
     <Button
         android:id="@+id/Button1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="40sp"
-        android:text="@string/click_here"
         android:onClick="type"
-        app:layout_constraintBottom_toBottomOf="@id/textView"
+        android:text="@string/create"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/green"
+
+         />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/todo_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editText"
-        app:layout_constraintVertical_bias="0.2"
-    />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/editText"
+        android:scrollbars="vertical"
+        app:layout_constraintVertical_bias="0.5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
