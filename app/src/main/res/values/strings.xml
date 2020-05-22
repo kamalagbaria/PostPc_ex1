@@ -4,4 +4,15 @@
     <string name="click_me">Click Me!</string>
     <string name="create">create</string>
     <string name="todo_tiem">todo_tiem</string>
+    <string name="textview">TextView</string>
+    <string name="id">id</string>
+    <string name="content">content</string>
+    <string name="created_on">created on</string>
+    <string name="last_modified">last modified</string>
+    <string name="is_done">is done</string>
+    <string name="time_modified">time modified</string>
+    <string name="name">Name</string>
+    <string name="Item_Id">Item Id</string>
+    <string name="apply_changes">Apply Changes</string>
+    <string name="delete">Delete</string>
 </resources>
